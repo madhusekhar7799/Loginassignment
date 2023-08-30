@@ -1,0 +1,301 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@300;400;700&family=Neucha&family=Noto+Sans:ital,wght@0,300;0,400;1,700&family=Roboto:wght@300;400;700&family=Titillium+Web:wght@300;400;700&display=swap'); */
+/* body {
+  font-family: "arial", cursive;
+} */
+
+/* Your existing CSS code here */
+ 
+/* @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@300;400;700&family=Neucha&family=Noto+Sans:ital,wght@0,300;0,400;1,700&family=Roboto:wght@300;400;700&family=Titillium+Web:wght@300;400;700&display=swap'); */
+/* body {
+  font-family: "arial", cursive;
+} */
+
+/* Your existing CSS code here */
+
+/* Media Queries for Responsive Design */
+ 
+const backbutton = document.getElementById("backbutton");
+backbutton.addEventListener("click", function(){
+    popupButton.click()
+})
+ 
+.addEventListener("click", function() {
+    document.getElementById("button2").click();
+  });
+ 
+// const togglePassword = document.querySelector("#togglePassword");
+//         const password = document.querySelector("#password");
+
+//         togglePassword.addEventListener("click", function () {
+//             // toggle the type attribute
+//             const type = password.getAttribute("type") === "password" ? "text" : "password";
+//             password.setAttribute("type", type);
+            
+//             // toggle the icon
+//             this.classList.toggle("bi-eye");
+//         });
+
+//         // prevent form submit
+//         const form = document.querySelector("form");
+//         form.addEventListener('submit', function (e) {
+//             e.preventDefault();
+//         });
+ 
+
+const togglePassword = document.querySelector("#togglePassword");
+        const password = document.querySelector("#password");
+
+        togglePassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+            
+            // toggle the icon
+            this.classList.toggle("bi-eye");
+        });
+
+        // prevent form submit
+        const form = document.querySelector("form");
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+        });
+ 
+   // togglePassword.addEventListener('click', function (e) {
+        //     // toggle the type attribute
+        //     const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        //     password.setAttribute('type', type);
+        //     // toggle the eye / eye slash icon
+        //     this.classList.toggle('bi-eye');
+        // });
+ 
+arrow
+ 
+.arrow{
+    height: 30px;
+    width: 30px;
+}
+ 
+pasword
+ 
+password
+ 
+// const loginbutton = document.getElementsByClassName(".login-tab-button") 
+// const signupbutton = document.getElementsByClassName("sign-tab-button")
+
+// const hrtag = document.getElementsByTagName("hr")
+ 
+// const loginbutton = document.getElementsByClassName(".login-tab-button") 
+// const signupbutton = document.getElementsByClassName("sign-tab-button")
+
+// const hrtag = document.getElementsByTagName("hr")
+ 
+const togglePassword = document.querySelector("#togglePassword");
+        const password = document.querySelector("#password");
+
+        togglePassword.addEventListener("click", function () {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+            
+            // toggle the icon
+            this.classList.toggle("bi-eye");
+        });
+
+        // prevent form submit
+        const form = document.querySelector("form");
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+        });
+ 
+  <!-- <i class="far fa-eye" id="togglePassword" style="transform: translateX(400px); cursor: pointer;"></i> -->
+                        <!-- <input type="password" id="loginPassword" placeholder="Enter Your Password"> -->
+                        <i class="fa-solid fa-eye" id="eye"></i>
+ 
+.password-container{
+    width: 400px;
+    position: relative;
+  }
+
+  .password-container input[type="password"],
+  .password-container input[type="text"]{
+    width: 100%;
+    padding: 12px 36px 12px 12px;
+    box-sizing: border-box;
+  }
+
+.fa-eye{
+    position: absolute;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+  }
+ 
+margin-left: 30px;
+ 
+title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters
+ 
+title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+ 
+ required  
+  name="" id="" class=""
+ 
+pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$
+ 
+intlTelInput.js
+ 
+const input = document.querySelector("#phone");
+
+window.intlTelInput(input,({
+
+// options here
+
+}));
+ 
+  border: 1px, rgb(15, 15, 245);
+ 
+none
+ 
+:hover
+ 
+  
+
+ 
+ loginbutton.style.color = "red"
+    hrtag.style.color = "red"
+ 
+
+
+loginbutton.addEventListener("click", () =>{
+   
+})
+ 
+loginbutton.style.color = "red";
+    hrtag.style.color = "red"
+ 
+green
+ 
+loginPassword
+ 
+loginPassword
+ 
+color:green
+ 
+  </div>
+ 
+class="meo"
+ 
+.meo{
+    width: 160px;
+}
+ 
+between
+ 
+ <div>
+                                                        <input type="checkbox" name="vehicle1" >
+  <label for="vehicle1">
+                            </div>
+ 
+ id="vehicle1" 
+ 
+value="Bike"
+ 
+mail or Mobile
+ 
+<p>Full Name*</p>
+ 
+none
+ 
+solid
+ 
+none
+ 
+5px
+ 
+ rgb(102, 100, 100) soli
+ 
+btn btn-primary
+ 
+Arial
+ 
+height="90px" width="120px"
+ 
+// Add these event listeners inside your script.js
+const loginEyeIcon = document.getElementById("loginEyeIcon");
+const signupEyeIcon = document.getElementById("signupEyeIcon");
+const loginPasswordInput = document.getElementById("loginPassword");
+const signupPasswordInput = document.getElementById("signupPassword");
+
+loginEyeIcon.addEventListener("click", () => {
+    togglePasswordVisibility(loginPasswordInput, loginEyeIcon);
+});
+
+signupEyeIcon.addEventListener("click", () => {
+    togglePasswordVisibility(signupPasswordInput, signupEyeIcon);
+});
+
+function togglePasswordVisibility(input, eyeIcon) {
+    if (input.type === "password") {
+        input.type = "text";
+        eyeIcon.src = "eye-open.png"; // Replace with the open eye icon image
+    } else {
+        input.type = "password";
+        eyeIcon.src = "eye-closed.png"; // Replace with the closed eye icon image
+    }
+}
+ 
+   <div class="eye-icon-container">
+                        <img src="eye-closed.png" alt="Show password" class="eye-icon" id="signupEyeIcon">
+                    </div>
+ 
+      <div class="eye-icon-container">
+                        <img src="eye-closed.png" alt="Show password" class="eye-icon" id="loginEyeIcon">
+                    </div>
+ 
+ <div class="eye-icon-container">
+                        <img src="eye-closed.png" alt="Show password" class="eye-icon" id="loginEyeIcon">
+                    </div>
+ 
+/* eye */
+
+/* Add these styles to your existing styles.css */
+.eye-icon-container {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+ 
+// Add these event listeners inside your script.js
+const loginEyeIcon = document.getElementById("loginEyeIcon");
+const signupEyeIcon = document.getElementById("signupEyeIcon");
+const loginPasswordInput = document.getElementById("loginPassword");
+const signupPasswordInput = document.getElementById("signupPassword");
+
+loginEyeIcon.addEventListener("click", () => {
+    togglePasswordVisibility(loginPasswordInput, loginEyeIcon);
+});
+
+signupEyeIcon.addEventListener("click", () => {
+    togglePasswordVisibility(signupPasswordInput, signupEyeIcon);
+});
+
+function togglePasswordVisibility(input, eyeIcon) {
+    if (input.type === "password") {
+        input.type = "text";
+        eyeIcon.src = "eye-open.png"; // Replace with the open eye icon image
+    } else {
+        input.type = "password";
+        eyeIcon.src = "eye-closed.png"; // Replace with the closed eye icon image
+    }
+}
+
+ 
+loginForm.style.display = "column";
+ 
